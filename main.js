@@ -21,7 +21,7 @@ let quotes = [
     "The key to success is to focusnon goals not obstacles.",
 ];
 
-function newQuote() {
+let newQuote = () => {
     let randomNumber = Math.floor(Math.random() * (quotes.length));
     document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
 }
